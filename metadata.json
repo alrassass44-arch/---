@@ -1,0 +1,8 @@
+{
+  "name": "Remix ديوان السعادة – نغم يجمعنا",
+  "description": "منصة موسيقية رقمية مبهجة للأغنية اليمنية والخليجية والتراث الطربي وجلسات العود والشرح اللحجي.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

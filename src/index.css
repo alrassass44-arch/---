@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-cream: #FFFDF7;
+    --color-cream-dark: #FFF7E8;
+    --color-turquoise: #13B8A6;
+    --color-skyblue: #42BDEB;
+    --color-gold: #E8B957;
+    --color-royalblue: #2867A5;
+    --color-coral: #F28B82;
+  }
+
+  body {
+    font-family: 'Tajawal', 'Cairo', system-ui, -apple-system, sans-serif;
+    background-color: #FFFDF7;
+    color: #1E293B;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cairo', 'Tajawal', sans-serif;
+  }
+}
+
+/* Custom scrollbar for festive theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFF7E8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #13B8A6;
+}
+
+/* Festive Gradients & Accents */
+.festive-gradient {
+  background: linear-gradient(135deg, #13B8A6 0%, #42BDEB 50%, #2867A5 100%);
+}
+
+.festive-banner-gradient {
+  background: linear-gradient(135deg, rgba(19, 184, 166, 0.95) 0%, rgba(66, 189, 235, 0.9) 60%, rgba(40, 103, 165, 0.95) 100%);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #B48421 0%, #E8B957 50%, #D89823 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.turquoise-gradient-text {
+  background: linear-gradient(135deg, #0F766E 0%, #13B8A6 50%, #42BDEB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
